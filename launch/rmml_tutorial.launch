@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="cpp"     pkg="rmml_tutorials"  type="lasertest" >
+  </node>
+
+  <node name="py"     pkg="rmml_tutorials"  type="lasertest.py" >
+  </node>
+
+</launch>
